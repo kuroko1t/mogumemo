@@ -16,6 +16,9 @@
   p { margin: 8px 0; }
   a { color: #3F64B0; }
   .home { display: inline-block; margin-bottom: 20px; }
+  table { border-collapse: collapse; width: 100%; margin: 10px 0; font-size: .92rem; }
+  th, td { border: 1px solid #ccd4dd; padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #f0f6f5; }
 </style>
 </head>
 <body>
@@ -23,7 +26,7 @@
 <a class="home" href="index.html">← もぐリピ</a>
 <h1>もぐリピ プライバシーポリシー</h1>
 
-<p>最終更新日: 2026年8月1日</p>
+<p>最終更新日: 2026年8月15日</p>
 
 <p>「もぐリピ」(以下「本アプリ」)は、ユーザーのプライバシーを最優先に設計された外食記録アプリです。本ポリシーでは、本アプリが扱う情報と、その取り扱いについて説明します。</p>
 
@@ -51,7 +54,19 @@
 <li>公開設定をオフにすると、該当データはサーバーから削除されます</li>
 </ul>
 
-<p>Firebaseのデータ取り扱いについては<a href="https://policies.google.com/privacy">Googleのプライバシーポリシー</a>をご参照ください。</p>
+<p>これらのデータは、Google LLC(米国)が管理するサーバーに保存されます。Firebaseのデータ取り扱いについては<a href="https://policies.google.com/privacy">Googleのプライバシーポリシー</a>をご参照ください。</p>
+
+<h2>外部送信される情報について</h2>
+
+<p>フレンド機能の利用時、本アプリはGoogle LLCが提供するFirebaseと通信します。その際に送信される情報は以下のとおりです。</p>
+
+<table>
+<tr><th>送信先</th><th>送信される情報</th><th>利用目的</th></tr>
+<tr><td>Google LLC<br>(Firebase Authentication)</td><td>匿名認証のための識別子、端末の接続情報(IPアドレス等)</td><td>利用者の識別とフレンド機能の提供</td></tr>
+<tr><td>Google LLC<br>(Cloud Firestore)</td><td>ニックネーム、フレンドID、公開設定した店舗の情報</td><td>フレンドへの共有データの保存・配信</td></tr>
+</table>
+
+<p>本アプリは広告SDK・アクセス解析SDKを搭載しておらず、上記以外の外部送信はありません。フレンド機能を利用しない場合、これらの通信は発生しません。</p>
 
 <h2>データの削除</h2>
 
@@ -75,6 +90,10 @@
 <h2>改定</h2>
 
 <p>本ポリシーを改定する場合は、本ページおよびアプリ内でお知らせします。</p>
+
+<h2>利用規約</h2>
+
+<p>本アプリの利用条件は<a href="terms.html">利用規約</a>をご覧ください。</p>
 
 <h2>連絡先</h2>
 
